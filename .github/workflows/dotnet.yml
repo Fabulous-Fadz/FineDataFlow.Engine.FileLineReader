@@ -40,6 +40,6 @@ jobs:
       uses: rohith/publish-nuget@v2
       with:
         PROJECT_FILE_PATH: FineDataFlow.Engine.FileLineReader/FineDataFlow.Engine.FileLineReader.csproj
-        PACKAGE_NAME: FineDataFlow.Engine
+        PACKAGE_NAME: FineDataFlow.Engine.FileLineReader
         NUGET_KEY: ${{secrets.NUGET_API_KEY}}
         INCLUDE_SYMBOLS: true
