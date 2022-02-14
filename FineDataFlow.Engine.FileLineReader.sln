@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FineDataFlow.Engine.FileLin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FineDataFlow.Engine.FileLineReader.Tests", "FineDataFlow.Engine.FileLineReader.Tests\FineDataFlow.Engine.FileLineReader.Tests.csproj", "{FA1753E8-C1D6-4255-8FFF-E974DB065710}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Main", "Main", "{1F751D13-9830-4745-8FD4-DAFACC99CB45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{748C41D2-D7C3-44D6-88EA-71DF51B4F749}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +28,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1746955A-0439-4282-BA15-BCA6822E3126} = {1F751D13-9830-4745-8FD4-DAFACC99CB45}
+		{FA1753E8-C1D6-4255-8FFF-E974DB065710} = {748C41D2-D7C3-44D6-88EA-71DF51B4F749}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9FCCD49E-B597-481A-B9BE-551E40AF3802}
