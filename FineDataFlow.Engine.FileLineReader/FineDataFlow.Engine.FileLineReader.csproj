@@ -1,12 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<Version>0.0.2</Version>
+		<Version>0.0.3</Version>
 		<LangVersion>latest</LangVersion>
 		<TargetFramework>netcoreapp3.1</TargetFramework>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 		<AssemblyName>FineDataFlow.Engine.FileLineReader</AssemblyName>
 		<RootNamespace>FineDataFlow.Engine.FileLineReader</RootNamespace>
 		<RepositoryUrl>https://github.com/FortuneN/FineDataFlow.Engine.FileLineReader</RepositoryUrl>
